@@ -1,0 +1,1272 @@
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp1 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   11G   37G  22% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  175M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  693M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp1 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp2 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   10G   37G  22% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  101M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  693M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp2 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp3 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   11G   36G  23% /logs
+/dev/mapper/datavg-lv_ewp
+                      9.8G  1.1G  8.3G  11% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  107M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  691M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp3 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp4 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   11G   37G  23% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G   47M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  694M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp4 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp5 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.4G   18G   8% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G   48M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  694M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp5 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp6 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G   48M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  692M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp6 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp7 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  101M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  694M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp7 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp8 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.2G   18G   7% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  156M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  693M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp8 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp9 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   11G   37G  23% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G   47M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  695M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp9 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp9 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   11G   37G  23% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G   47M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  695M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp9 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp11 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  121M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  716M  3.9G  16% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp11 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp12 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  212M   19G   2% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  716M  3.9G  16% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp12 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp13 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  121M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  718M  3.9G  16% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp13 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp14 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.2G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  132M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  716M  3.9G  16% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp14 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp1 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   11G   37G  22% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  175M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  693M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp1 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp2 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   10G   37G  22% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  101M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  693M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp2 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp3 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   11G   36G  23% /logs
+/dev/mapper/datavg-lv_ewp
+                      9.8G  1.1G  8.3G  11% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  107M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  691M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp3 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp4 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   11G   37G  23% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G   47M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  694M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp4 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp5 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.4G   18G   8% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G   48M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  694M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp5 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp6 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G   48M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  692M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp6 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp7 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  101M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  694M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp7 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp8 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.2G   18G   7% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  156M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  693M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp8 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp9 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   11G   37G  23% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G   47M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  695M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp9 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp9 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   11G   37G  23% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G   47M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  695M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp9 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp11 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  121M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  716M  3.9G  16% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp11 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp12 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  212M   19G   2% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  716M  3.9G  16% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp12 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp13 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.1G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  121M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  718M  3.9G  16% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp13 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhapp14 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/datavg-lv_logs
+                       50G   14G   34G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  1.2G   18G   6% /ewp
+/dev/mapper/rootvg-lv_home
+                       20G  132M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  716M  3.9G  16% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+[hxb@sjyhapp14 ~]$ 
+
+
+[hxb@sjyhwebjr1 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  2.0G   17G  11% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  820M  3.8G  18% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_ewp
+                       20G  2.6G   17G  14% /ewp
+/dev/mapper/datavg-lv_logs
+                       97G   16G   76G  17% /logs
+[hxb@sjyhwebjr1 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhwebjr2 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  154M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  670M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_ewp
+                       20G  2.1G   17G  12% /ewp
+/dev/mapper/datavg-lv_logs
+                       97G   16G   76G  17% /logs
+[hxb@sjyhwebjr2 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhwebjr3 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  887M   18G   5% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  670M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_ewp
+                       20G  1.6G   18G   9% /ewp
+/dev/mapper/datavg-lv_logs
+                       97G   16G   76G  17% /logs
+[hxb@sjyhwebjr3 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhwebjr4 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  200M   19G   2% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  670M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_ewp
+                       20G  2.2G   17G  12% /ewp
+/dev/mapper/datavg-lv_logs
+                       97G   16G   76G  17% /logs
+[hxb@sjyhwebjr4 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhwebjr5 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  166M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  670M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_ewp
+                       20G  2.5G   17G  14% /ewp
+/dev/mapper/datavg-lv_logs
+                       97G   16G   76G  17% /logs
+[hxb@sjyhwebjr5 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhwebjr6 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G   48M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  670M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_logs
+                       97G   27G   66G  29% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  2.1G   17G  12% /ewp
+[hxb@sjyhwebjr6 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhwebjr7 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G   48M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  670M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_logs
+                       97G   16G   76G  17% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  2.1G   17G  12% /ewp
+[hxb@sjyhwebjr7 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhwebjr8 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G   48M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  670M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_logs
+                       97G   16G   76G  17% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  2.1G   17G  12% /ewp
+[hxb@sjyhwebjr8 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhwebjr9 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  310M   19G   2% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  670M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_logs
+                       97G   69M   92G   1% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G  2.2G   17G  12% /ewp
+/dev/mapper/datavg-lv_gtp
+                      157G  850M  148G   1% /gtp
+[hxb@sjyhwebjr9 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhwebjr10 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  100M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  669M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_ewp
+                       20G  2.1G   17G  12% /ewp
+/dev/mapper/datavg-lv_logs
+                       97G   69M   92G   1% /logs
+/dev/mapper/datavg-lv_gtp
+                      157G  851M  148G   1% /gtp
+[hxb@sjyhwebjr10 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhwebjr11 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  299M   19G   2% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  675M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_ewp
+                       20G  2.2G   17G  12% /ewp
+/dev/mapper/datavg-lv_logs
+                       97G   16G   77G  17% /logs
+[hxb@sjyhwebjr11 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhwebjr12 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  341M   19G   2% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  676M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_ewp
+                       20G  2.3G   17G  13% /ewp
+/dev/mapper/datavg-lv_logs
+                       97G   16G   76G  17% /logs
+[hxb@sjyhwebjr12 ~]$ 
+
+
+[hxb@sjyhmem1 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G   12G   28G  31% /
+tmpfs                  64G  216K   64G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G   76M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  668M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_logs
+                       99G  187M   94G   1% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G   44M   19G   1% /ewp
+/dev/mapper/datavg-lv_redis
+                       99G  8.6G   85G  10% /redis
+[hxb@sjyhmem1 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhmem2 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  8.5G   31G  22% /
+tmpfs                  64G   72K   64G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  139M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  667M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_logs
+                       99G  185M   94G   1% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G   44M   19G   1% /ewp
+/dev/mapper/datavg-lv_redis
+                       99G  7.6G   86G   9% /redis
+[hxb@sjyhmem2 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhmem3 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G   12G   28G  31% /
+tmpfs                  64G   72K   64G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G   52M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  666M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_logs
+                       99G  169M   94G   1% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G   44M   19G   1% /ewp
+/dev/mapper/datavg-lv_redis
+                       99G  7.1G   87G   8% /redis
+[hxb@sjyhmem3 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhmem4 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G   12G   28G  31% /
+tmpfs                  64G   72K   64G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G   52M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  667M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   20M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_logs
+                       99G  169M   94G   1% /logs
+/dev/mapper/datavg-lv_ewp
+                       20G   44M   19G   1% /ewp
+/dev/mapper/datavg-lv_redis
+                       99G  7.1G   87G   8% /redis
+[hxb@sjyhmem4 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhmg1 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  1.8G   17G  10% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  670M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   21M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_logs
+                       50G   11G   37G  22% /logs
+/dev/mapper/datavg-lv_ewp
+                      115G   18G   92G  17% /ewp
+/dev/mapper/datavg-lv_gtp
+                       50G   19G   28G  41% /gtp
+/dev/mapper/datavg-lv_oracle
+                      9.8G  4.3G  5.0G  47% /oracle
+[hxb@sjyhmg1 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhmg2 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  182M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      4.8G  670M  3.9G  15% /itm
+/dev/mapper/rootvg-lv_pkg
+                      4.8G   21M  4.6G   1% /pkg
+/dev/mapper/datavg-lv_logs
+                       50G   24G   24G  51% /logs
+/dev/mapper/datavg-lv_ewp
+                      115G  5.7G  104G   6% /ewp
+/dev/mapper/datavg-lv_gtp
+                       50G   18G   30G  37% /gtp
+/dev/mapper/datavg-lv_oracle
+                      9.8G  4.3G  5.0G  47% /oracle
+[hxb@sjyhmg2 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhcj1 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                 3.9G   72K  3.9G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G   46M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      9.8G  672M  8.6G   8% /itm
+/dev/mapper/rootvg-lv_pkg
+                      9.8G   23M  9.2G   1% /pkg
+/dev/mapper/datavg-lv_ewp
+                       30G   51M   28G   1% /ewp
+/dev/mapper/datavg-lv_logs
+                       30G  2.1G   26G   8% /logs
+[hxb@sjyhcj1 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhcj2 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                 3.9G   72K  3.9G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G   45M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      9.8G  672M  8.6G   8% /itm
+/dev/mapper/rootvg-lv_pkg
+                      9.8G   23M  9.2G   1% /pkg
+/dev/mapper/datavg-lv_ewp
+                       30G   50M   28G   1% /ewp
+/dev/mapper/datavg-lv_logs
+                       30G  2.1G   26G   8% /logs
+[hxb@sjyhcj2 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhpic1 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                 3.9G   72K  3.9G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  1.7G   17G   9% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      9.8G  672M  8.6G   8% /itm
+/dev/mapper/rootvg-lv_pkg
+                      9.8G   23M  9.2G   1% /pkg
+/dev/mapper/datavg-lv_ewp
+                       30G  3.8G   25G  14% /ewp
+/dev/mapper/datavg-lv_logs
+                      493G   44G  424G  10% /logs
+[hxb@sjyhpic1 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhpic2 ~]$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/rootvg-lv_root
+                       42G  5.4G   34G  14% /
+tmpfs                 3.9G   72K  3.9G   1% /dev/shm
+/dev/sda1             190M   57M  124M  32% /boot
+/dev/mapper/rootvg-lv_home
+                       20G   45M   19G   1% /home
+/dev/mapper/rootvg-lv_loguser
+                      4.8G   11M  4.6G   1% /home/loguser
+/dev/mapper/rootvg-lv_itm
+                      9.8G  672M  8.6G   8% /itm
+/dev/mapper/rootvg-lv_pkg
+                      9.8G   23M  9.2G   1% /pkg
+/dev/mapper/datavg-lv_ewp
+                       30G  3.8G   25G  14% /ewp
+/dev/mapper/datavg-lv_logs
+                      493G   44G  424G  10% /logs
+[hxb@sjyhpic2 ~]$ 
+
+
+[hxb@sjyhxxts1 ~]$ df -h
+文件系统              容量  已用  可用 已用%% 挂载点
+/dev/mapper/rootvg-lv_root
+                       42G  5.7G   34G  15% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             194M   33M  152M  18% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  2.1G   17G  11% /home
+/dev/mapper/datavg-lv_logs
+                       99G  1.1G   93G   2% /logs
+[hxb@sjyhxxts1 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhxxts2 ~]$ df -h
+文件系统              容量  已用  可用 已用%% 挂载点
+/dev/mapper/rootvg-lv_root
+                       42G  5.7G   34G  15% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             194M   33M  152M  18% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  1.8G   17G  10% /home
+/dev/mapper/datavg-lv_logs
+                       99G  1.1G   93G   2% /logs
+[hxb@sjyhxxts2 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhtsapp1 ~]$ df -h
+文件系统              容量  已用  可用 已用%% 挂载点
+/dev/mapper/rootvg-lv_root
+                       42G  5.8G   34G  15% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             194M   33M  152M  18% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  515M   19G   3% /home
+/dev/mapper/datavg-lv_logs
+                       99G  188M   94G   1% /logs
+[hxb@sjyhtsapp1 ~]$
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhtsapp2 ~]$ df -h
+文件系统              容量  已用  可用 已用%% 挂载点
+/dev/mapper/rootvg-lv_root
+                       42G  5.8G   34G  15% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             194M   33M  152M  18% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  621M   19G   4% /home
+/dev/mapper/datavg-lv_logs
+                       99G  188M   94G   1% /logs
+[hxb@sjyhtsapp2 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhtsmng1 ~]$ df -h
+文件系统              容量  已用  可用 已用%% 挂载点
+/dev/mapper/rootvg-lv_root
+                       42G  5.7G   34G  15% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             194M   33M  152M  18% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  173M   19G   1% /home
+/dev/mapper/datavg-lv_logs
+                       99G  188M   94G   1% /logs
+[hxb@sjyhtsmng1 ~]$ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+[hxb@sjyhtsmng2 ~]$ df -h
+文件系统              容量  已用  可用 已用%% 挂载点
+/dev/mapper/rootvg-lv_root
+                       42G  5.8G   34G  15% /
+tmpfs                  16G   72K   16G   1% /dev/shm
+/dev/sda1             194M   33M  152M  18% /boot
+/dev/mapper/rootvg-lv_home
+                       20G  173M   19G   1% /home
+/dev/mapper/datavg-lv_logs
+                       99G  192M   94G   1% /logs
+[hxb@sjyhtsmng2 ~]$ 
+
+
+hxb@sjdb1:/home/hxb>df -g
+Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4           5.00      4.66    7%    11907     2% /
+/dev/hd2           6.00      3.24   47%    53411     7% /usr
+/dev/hd9var        6.00      4.69   22%     8734     1% /var
+/dev/hd3           8.00      5.40   33%    18362     2% /tmp
+/dev/hd1          10.00      9.82    2%      404     1% /home
+/dev/hd11admin      0.50      0.50    1%        5     1% /admin
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt       6.00      5.01   17%    13000     2% /opt
+/dev/livedump      0.50      0.50    1%        4     1% /var/adm/ras/livedump
+/dev/lv00          0.50      0.48    4%       18     1% /var/adm/csd
+/dev/lv_pkg       30.00     13.81   54%     7344     1% /pkg
+/dev/lv_itm       10.00      9.49    6%     3730     1% /itm
+/dev/lv_oracle     70.00     25.45   64%   663382    10% /oracle
+/dev/lv_arch     200.00    192.90    4%       29     1% /archivelog
+/dev/lv_rman      40.00     39.92    1%        8     1% /rmanbak
+/dev/lv_dbbak     30.00     11.69   62%      442     1% /dbbak
+hxb@sjdb1:/home/hxb>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+hxb@sjdb2:/home/hxb>
+hxb@sjdb2:/home/hxb>df -g
+Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4           5.00      4.67    7%    11883     2% /
+/dev/hd2           6.00      3.24   47%    53405     7% /usr
+/dev/hd9var        6.00      4.66   23%     8698     1% /var
+/dev/hd3           8.00      4.90   39%    15524     2% /tmp
+/dev/hd1          10.00      9.82    2%      322     1% /home
+/dev/hd11admin      0.50      0.50    1%        5     1% /admin
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt       6.00      5.03   17%    12889     2% /opt
+/dev/livedump      0.50      0.50    1%        4     1% /var/adm/ras/livedump
+/dev/lv00          0.50      0.48    4%       18     1% /var/adm/csd
+/dev/lv_pkg       30.00     13.82   54%     7341     1% /pkg
+/dev/lv_itm       10.00      9.45    6%     3799     1% /itm
+/dev/lv_oracle     70.00     32.87   54%   591355     8% /oracle
+/dev/lv_arch     200.00    183.42    9%       56     1% /archivelog
+/dev/lv_rman      40.00     39.99    1%        4     1% /rmanbak
+hxb@sjdb2:/home/hxb>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+hxb@sjjrap1:/home/hxb>df -g
+Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4           5.00      4.68    7%    11485     2% /
+/dev/hd2           6.00      3.24   46%    54710     7% /usr
+/dev/hd9var        6.00      4.61   24%     8581     1% /var
+/dev/hd3          15.00     14.96    1%      257     1% /tmp
+/dev/hd1          10.00      9.80    2%      145     1% /home
+/dev/hd11admin      0.50      0.50    1%        5     1% /admin
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt       6.00      4.39   27%    40728     4% /opt
+/dev/livedump      0.50      0.50    1%        4     1% /var/adm/ras/livedump
+/dev/lv00          0.50      0.48    4%       18     1% /var/adm/csd
+/dev/lv_pkg       20.00     13.52   33%     1686     1% /pkg
+/dev/lv_itm       40.00     30.97   23%     3214     1% /itm
+/dev/lv_ewp       30.00     26.68   12%    69165     2% /ewp
+/dev/lv_gtp       10.00     10.00    1%        6     1% /gtp
+/dev/lv_logs     150.00    149.81    1%       34     1% /logs
+hxb@sjjrap1:/home/hxb>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+hxb@sjjrap5:/home/hxb>df -g
+Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4           5.00      4.68    7%    11440     2% /
+/dev/hd2           6.00      3.21   47%    55343     7% /usr
+/dev/hd9var        6.00      4.53   25%     8694     1% /var
+/dev/hd3           8.00      7.40    8%      279     1% /tmp
+/dev/hd1          10.00      9.84    2%      116     1% /home
+/dev/hd11admin      0.50      0.50    1%        5     1% /admin
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt       6.00      4.10   32%    40932     5% /opt
+/dev/livedump      0.50      0.50    1%        4     1% /var/adm/ras/livedump
+/dev/lv00          0.50      0.48    4%       18     1% /var/adm/csd
+/dev/lv_pkg       30.00     11.65   62%     9832     1% /pkg
+/dev/lv_itm       10.00      9.10    9%     3416     1% /itm
+/dev/lv_ewp       30.00     27.46    9%    71682     2% /ewp
+/dev/lv_logs     150.00    149.97    1%       31     1% /logs
+hxb@sjjrap5:/home/hxb>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+hxb@sjjrjr1:/home/hxb>
+hxb@sjjrjr1:/home/hxb>df -g
+Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4           5.00      4.68    7%    11444     2% /
+/dev/hd2           6.00      3.22   47%    56239     7% /usr
+/dev/hd9var        6.00      4.73   22%     8560     1% /var
+/dev/hd3           8.00      7.92    2%      249     1% /tmp
+/dev/hd1          10.00      9.98    1%       30     1% /home
+/dev/hd11admin      0.50      0.50    1%        5     1% /admin
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt       6.00      4.40   27%    40730     4% /opt
+/dev/livedump      0.50      0.50    1%        4     1% /var/adm/ras/livedump
+/dev/lv00          0.50      0.48    4%       18     1% /var/adm/csd
+/dev/lv_pkg       20.00     13.33   34%     1777     1% /pkg
+/dev/lv_itm       10.00      9.63    4%     3179     1% /itm
+/dev/lv_ewp       30.00     18.55   39%   247210     6% /ewp
+/dev/lv_logs     150.00     89.87   41%      275     1% /logs
+hxb@sjjrjr1:/home/hxb>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+hxb@sjjrjr5:/home/hxb>df -g
+Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4           5.00      4.73    6%    11466     2% /
+/dev/hd2           6.00      3.16   48%    58390     8% /usr
+/dev/hd9var        6.00      4.86   20%    12606     2% /var
+/dev/hd3           8.00      6.15   24%     5359     1% /tmp
+/dev/hd1          10.00      7.61   24%     1092     1% /home
+/dev/hd11admin      0.50      0.50    1%        5     1% /admin
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt       6.00      4.11   32%    40851     5% /opt
+/dev/livedump      0.50      0.50    1%        4     1% /var/adm/ras/livedump
+/dev/lv00          0.50      0.48    4%       18     1% /var/adm/csd
+/dev/lv_pkg       30.00      7.42   76%     2520     1% /pkg
+/dev/lv_itm       10.00      9.16    9%     5912     1% /itm
+/dev/lv_ewp       30.00     28.24    6%    89501     2% /ewp
+/dev/lv_logs     150.00    118.67   21%     1594     1% /logs
+hxb@sjjrjr5:/home/hxb>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+hxb@sjmg1:/home/hxb>df -g
+Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4           5.00      4.71    6%    11499     2% /
+/dev/hd2           6.00      3.24   46%    54710     7% /usr
+/dev/hd9var        6.00      4.61   24%     8582     1% /var
+/dev/hd3           8.00      7.52    7%      298     1% /tmp
+/dev/hd1          10.00      7.31   27%    11747     1% /home
+/dev/hd11admin      0.50      0.50    1%        5     1% /admin
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt       6.00      4.40   27%    40730     4% /opt
+/dev/livedump      0.50      0.50    1%        4     1% /var/adm/ras/livedump
+/dev/lv00          0.50      0.48    4%       18     1% /var/adm/csd
+/dev/lv_pkg       30.00      9.59   69%    19296     1% /pkg
+/dev/lv_itm       10.00      9.17    9%     5870     1% /itm
+/dev/lv_was       20.00     17.71   12%    51703     2% /was
+/dev/lv_ewp       20.00      9.61   52%    29883     2% /ewp
+/dev/lv_logs     150.00     82.76   45%     5956     1% /logs
+/dev/fslv00       50.00     30.72   39%     2848     1% /gtp
+hxb@sjmg1:/home/hxb>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+hxb@sjmg2:/home/hxb>df -g
+Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4           5.00      4.23   16%    11619     2% /
+/dev/hd2           6.00      3.24   46%    54714     7% /usr
+/dev/hd9var        6.00      4.51   25%     8573     1% /var
+/dev/hd3           8.00      7.54    6%      267     1% /tmp
+/dev/hd1          10.00      9.66    4%      171     1% /home
+/dev/hd11admin      0.50      0.50    1%        5     1% /admin
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt       6.00      4.40   27%    40730     4% /opt
+/dev/livedump      0.50      0.50    1%        4     1% /var/adm/ras/livedump
+/dev/lv00          0.50      0.48    4%       18     1% /var/adm/csd
+/dev/lv_pkg       30.00     11.65   62%     9831     1% /pkg
+/dev/lv_itm       10.00      9.14    9%     5921     1% /itm
+/dev/lv_ewp       20.00     17.14   15%     7970     1% /ewp
+/dev/lv_was       20.00     16.51   18%    42055     2% /was
+/dev/lv_logs     150.00    149.60    1%     1825     1% /logs
+/dev/fslv00       50.00     49.10    2%     1691     1% /gtp
+hxb@sjmg2:/home/hxb>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+hxb@sjlog:/home/hxb>df -g
+Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4           5.00      4.71    6%    11763     2% /
+/dev/hd2           6.00      3.25   46%    53371     7% /usr
+/dev/hd9var        6.00      3.80   37%     8672     1% /var
+/dev/hd3           8.00      7.62    5%     5818     1% /tmp
+/dev/hd1          10.00      9.52    5%       92     1% /home
+/dev/hd11admin      0.50      0.50    1%        5     1% /admin
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt       6.00      5.11   15%    12467     2% /opt
+/dev/livedump      0.50      0.50    1%        4     1% /var/adm/ras/livedump
+/dev/lv00          0.50      0.48    4%       18     1% /var/adm/csd
+/dev/lv_pkg       20.00     13.51   33%     1692     1% /pkg
+/dev/lv_itm       10.00      9.66    4%     3154     1% /itm
+/dev/lv_mob       30.00     29.90    1%       24     1% /mob
+/dev/lv_baklogs   4122.00   1907.10   54%    15092     1% /baklogs
+hxb@sjlog:/home/hxb>
+

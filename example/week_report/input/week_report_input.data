@@ -1,0 +1,22 @@
+%% coding: latin-1 %% Erlang/OTP 17.0之后erlang程序文件的代码中有中文必须加这个
+
+%% 各组机器最大交换空间使用率百分比
+{swap, [
+    {web_report, 0},               % "手机银行金融前置"
+    {app_report, 0},               % "手机银行金融应用"
+    {the_rest_report, 0},          % "手机银行其他应用"
+    {db_report, 0}                 % "手机银行数据库"
+]}.
+
+%% 应用服务器有效连接数的最小值和最大值
+{app_conn_count, {192, 201}}.
+
+%% 记录数
+{record_report, 
+    [100,   % "HXMOBILE.MA_POS_MERCHANT"
+     200,   % "HXMOBILE.MA_SMAG", 
+     300,   % "HXMOBILE.MY_OPER_LOGS_HISTORY"
+     400    % "HXMOBILE.MY_TRAN_LOGS_HISTORY"
+    ]
+}.
+

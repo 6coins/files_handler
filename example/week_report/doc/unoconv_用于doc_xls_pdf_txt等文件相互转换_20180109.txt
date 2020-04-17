@@ -1,0 +1,221 @@
+
+################################################################################ 
+## 相关版本说明
+################################################################################ 
+    系统版本:
+        rhel-server-6.6-x86_64-dvd.iso
+    软件版本:
+        LibreOffice_5.3.7.2_Linux_x86-64_rpm.tar.gz
+        unoconv-0.8.2.tar.gz
+
+################################################################################ 
+## 安装
+################################################################################ 
+     安装LibreOffice   
+        下载LibreOffice_5.3.7.2_Linux_x86-64_rpm.tar.gz
+            网址:http://downloadarchive.documentfoundation.org/libreoffice/old/
+        确保系统没安装LibreOffice 
+            rpm -qa |grep libreoffice
+            (如果以前按的其他版本可以先卸载,不要再LibreOffice的RPMS目录执行yum remove libreoffice*)
+        安装
+            tar zxvf LibreOffice_5.3.7.2_Linux_x86-64_rpm.tar.gz
+            cd LibreOffice_5.3.7.2_Linux_x86-64_rpm/RPMS/
+            rpm -Uvh *.rpm
+            (不报错即可)
+
+    安装unoconv
+        下载unoconv-0.8.2.tar.gz
+            网址:https://github.com/dagwieers/unoconv/downloads 或 https://github.com/downloads/dagwieers/unoconv/unoconv-0.8.2.tar.gz
+        unoconv无需安装直接解压就可以用
+            tar zvxf unoconv-0.8.2.tar.gz
+        安装
+            cd unoconv-0.8.2
+            make install
+        测试
+            cd unoconv-0.8.2
+            unoconv -f txt ./tests/document-example.odt
+            (不报错,并生成文件./tests/document-example.txt即可)
+
+
+################################################################################ 
+## 用法
+################################################################################ 
+    doc转成txt;xls转成csv
+        unoconv -f txt /tmp/a.doc
+        unoconv -f csv /tmp/b.xls
+        (会在a.doc和b.xls的所在目录生成同名不同扩展名的文件)
+
+        (如果不安装unoconv可以用如下命令执行
+            cd unoconv-0.8.2
+            UNO_PATH=/opt/libreoffice5.3/ ./unoconv -f txt /tmp/a.doc
+            UNO_PATH=/opt/libreoffice5.3/ ./unoconv -f csv /tmp/b.xls)
+
+    详细参数用法见文档
+        unoconv-0.8.2/README.adoc
+        unoconv-0.8.2/doc
+
+
+################################################################################ 
+## 常见问题和解决方法
+################################################################################ 
+
+    ################################################################################ 
+    问题:
+        报错
+        unoconv: UnoException during export phase:
+        Unable to store document to ... (ErrCode 3088)
+    原因:两个类型的文件无法转换,如xls转txt或html,doc转csv
+    解决1:用正确的类型转,如xls转csv,doc转txt
+    解决2:用中转,如xls转pdf转txt
+
+
+    ################################################################################ 
+    问题1:
+        报错：
+            Failed to connect to /opt/libreoffice5.3/program/soffice.bin (pid=2759) in 6 seconds.
+            Connector : couldn't connect to socket (Success)
+            Error: Unable to connect or start own listener. Aborting.
+    问题2:
+        报错：
+            Error: Unable to connect or start own listener. Aborting.
+
+    问题3:
+        报错：
+            Office probably died. Binary URP bridge disposed during call
+
+    原因:监听没开
+    解决1:在其他终端建立监听unoconv --listener
+    解决2:再执行一遍原来的命令(貌似报错后自动建立监听了)
+
+
+    ################################################################################ 
+    问题:
+        报错:
+        unoconv: UnoException during import phase:
+        The document 'xxx' could not be opened.
+    原因1:导入文件路径后面有空格等的字符
+    解决1:去掉即可
+    原因2:加了非法的选项,如
+        UNO_PATH=/opt/libreoffice5.1/ ./unoconv -f txt -e FilterOptions=44 *.doc
+        导入的是doc文件,但-e FilterOptions=44是csv才可以使用的选项
+    解决2:去掉即可
+
+
+    ################################################################################ 
+    问题:
+        unoconv-0.8.2.tar.gz 的 -o, --output=name 没法指定目录,只能指定一个文件
+    原因:??
+    解决:没法解决
+
+
+    ################################################################################ 
+    问题:
+        libreoffice安装报错:
+            /usr/bin/update-desktop-database
+            /usr/bin/update-mime-database
+            Unknown media type in type 'all/all'
+            Unknown media type in type 'all/allfiles'
+            Unknown media type in type 'uri/mms'
+            Unknown media type in type 'uri/mmst'
+            Unknown media type in type 'uri/mmsu'
+            Unknown media type in type 'uri/pnm'
+            Unknown media type in type 'uri/rtspt'
+            Unknown media type in type 'uri/rtspu'
+            Unknown media type in type 'fonts/package'
+            Unknown media type in type 'interface/x-winamp-skin'
+            mkdir: 无法创建目录"/usr/share/icons/hicolor/icon-theme.cache": 不是目录
+            mkdir: 无法创建目录"/usr/share/icons/hicolor/index.theme": 不是目录
+
+    原因:??
+    解决:
+        grep -rn "<以上报错的内容如mms>" /usr/share/mime/packages/
+        哪个文件搜索到内容,删掉相应标签,如
+            <mime-type type="all/all">  
+                <comment>all files and folders</comment>  
+            </mime-type>  
+
+    ################################################################################ 
+    问题:
+        报错
+            unoconv -f txt xxx.doc
+            unoconv: UnoException during import phase:
+            The document 'file:///xxx.doc' could not be opened.
+    原因1:版本问题,我用unoconv-0.8.2,如果用LibreOffice_6.0.0.2_Linux_x86-64_rpm.tar.gz就报如上错,但用LibreOffice_5.3.7.2_Linux_x86-64_rpm.tar.gz就不报错
+    解决1:换LibreOffice版本即可
+    原因2:??怀疑由于cpu过高(99%左右),系统都是rhel-server-6.6-x86_64公司的就报如上错,自己家的就不报错,怀疑公司的系统有某些设置
+    解决2:??无法解决
+    原因3:xxx.doc有问题(用vim打开,内容是xml,如<w:wordDocument xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml" ...>...,内容有未知的问题)
+    解决3.1:用word或wps打开xxx.doc,加一个空行,保存即可(如文件大小就会从3m变到2m)
+    解决3.2:如果尝试"解决3"还报错 只能把doc文件中的图片删一点,减小2m左右
+    原因4:(怀疑)由于unoconv转换是消耗资源(cpu等)过大,在工位用的时公司提供的虚拟机,人数过多时分配虚拟资源不足
+    解决4:在早晨执行或下班后执行(即公司人少时)
+    
+
+    ################################################################################ 
+    问题:
+        报错1：
+            E:\test>E:\ProgramFiles\LibreOfficePortable\App\libreoffice\program\python.exe unoconv -f txt *.doc
+            unoconv: RuntimeException during import phase:
+            Office probably died. Unsupported URL <*.doc>: "from LoadEnv::initializeLoading"
+        报错2：
+            E:\test>E:\ProgramFiles\LibreOfficePortable\App\libreoffice\program\python.exe unoconv -f txt file:///E:/test/*.doc
+            unoconv: RuntimeException during import phase:
+            Office probably died. Unsupported URL <file:///E:/test/*.doc>: "type detection failed"
+    原因:
+        ??windows中用unoconv好像不执行用通配符*只能输入指定文件,如:
+            E:\test>E:\ProgramFiles\LibreOfficePortable\App\libreoffice\program\python.exe unoconv -f txt aa.doc
+    解决:
+        无
+
+
+    ################################################################################ 
+    问题:
+        报错1：
+        [root@bogon unoconv-0.6]# UNO_PATH=/opt/libreoffice4.2 ./unoconv -f
+        zh_newsjyh_lastday_2017082904.doc 
+          File "./unoconv", line 241
+            print 'PATH=%s' % os.environ['PATH']
+                  ^
+        SyntaxError: invalid syntax
+        报错2：
+        [root@bogon unoconv-0.6]# /opt/libreoffice4.2/program/python.bin ./unoconv -f
+        zh_newsjyh_lastday_2017082904.doc 
+        Could not find platform independent libraries <prefix>
+        Could not find platform dependent libraries <exec_prefix>
+        Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+        Fatal Python error: Py_Initialize: Unable to get the locale encoding
+        ImportError: No module named 'encodings'
+        Aborted (core dumped)
+    原因:未知
+    解决:把unoconv-0.6换成unoconv-0.8
+
+
+
+################################################################################ 
+## LibreOffice直接用于doc_xls_pdf_txt等文件相互转换
+################################################################################# 
+    安装
+        tar zxvf LibreOffice_5.3.7.2_Linux_x86-64_rpm.tar.gz
+        tar zxvf LibreOffice_5.3.7.2_Linux_x86-64_rpm_langpack_zh-CN.tar.gz
+        tar zxvf LibreOffice_5.3.7.2_Linux_x86-64_rpm_helppack_zh-CN.tar.gz
+        rpm -Uvh LibreOffice_5.3.7.2_Linux_x86-64_rpm/RPMS/*.rpm
+        rpm -Uvh LibreOffice_5.3.7.2_Linux_x86-64_rpm_langpack_zh-CN/RPMS/*.rpm
+        rpm -Uvh LibreOffice_5.3.7.2_Linux_x86-64_rpm_helppack_zh-CN/RPMS/*.rpm
+
+    用法
+        libreoffice5.3 --headless --convert-to csv  zh_sjyh_lastday_excel_2017090405_currently.xls --outdir duan/
+        TODO 参照unoconv中的内容修改--convert-to csv加utf8等
+        libreoffice5.3 --headless --convert-to "txt:Text (encoded):UTF8" zh_newsjyh_lastday_2017082904.doc --outdir duan/
+        libreoffice5.3 --convert-to "txt:Text (encoded):UTF8" zh_newsjyh_lastday_2017082904.doc --outdir duan/
+
+        /opt/libreoffice5.3/program/soffice.bin --headless --convert-to txt zh_sjyh_lastday_2017082905.doc --outdir duan/
+
+    问题
+        libreoffice5.3 --headless --convert-to "txt:Text (encoded):UTF8" zh_newsjyh_lastday_2017082904.doc --outdir duan/
+        报错:Error: source file could not be loaded
+        1.怀疑是 
+            echo $LANG 
+            zh_CN.UTF-8
+        /opt/libreoffice5.3/program/soffice.bin --headless --convert-to txt cc.doc --outdir duan/
+
+
